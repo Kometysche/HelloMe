@@ -22,7 +22,7 @@ public class VariableMutation {
 
         int e = 8;
         // cube the value of e
-        e **= e;
+        e =e * e * e;
         System.out.println(e);
 
         int f1 = 123;
@@ -40,14 +40,20 @@ public class VariableMutation {
 
         int h = 135798745;
         // determine if h has 11 as a divisor (print as a boolean)
-        boolean divisor = ((h))
+        boolean divisor = ((h % 11 == 0));
+        System.out.println(divisor);
 
         int i1 = 10;
         int i2 = 3;
         // determine if i1 is greater than i2 squared and smaller than i2 cubed
         // (print as a boolean)
+        boolean isGreater = ((i1 > (i2 * i2)) && (i1 < (i2 * i2 * i2)));
+        System.out.println(isGreater);
+
 
         int j = 1521;
         // determine if j is divisible by 3 or 5 (print as a boolean)
+        boolean divisible = ((j % 3 == 0) || (j % 5 == 0));
+        System.out.println(divisible);
     }
 }
