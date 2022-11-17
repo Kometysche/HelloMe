@@ -1,10 +1,3 @@
-public class HelloMe {
-    public static void main(String[] args) {
-        // Modify this program to greet you instead of the World!
-        System.out.println("Hello, Jana!");
-    }
-}
-
 public class HumptyDumpty {
     public static void main(String[] args) {
         // Modify this program to print Humpty Dumpty riddle correctly
