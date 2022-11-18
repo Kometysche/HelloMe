@@ -13,23 +13,23 @@ public class AverageOfInput {
         // Sum: 22, Average: 4.4
         //
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter a number:");
+        System.out.println("Please enter a number: ");
         int first = scanner.nextInt();
 
-        System.out.println("Please enter a number:");
+        System.out.println("Please enter a number: ");
         int second = scanner.nextInt();
 
-        System.out.println("Please enter a number:");
+        System.out.println("Please enter a number: ");
         int third = scanner.nextInt();
 
-        System.out.println("Please enter a number:");
+        System.out.println("Please enter a number: ");
         int forth = scanner.nextInt();
 
-        System.out.println("Please enter a number:");
+        System.out.println("Please enter a number: ");
         int fifth = scanner.nextInt();
 
         int sum = (first + second + third + forth + fifth);
-        int avg = (sum / 5);
+        double avg = (sum / 5);
         System.out.println("Sum: " + sum + ", Average: " + avg);
 
     }

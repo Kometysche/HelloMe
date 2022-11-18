@@ -14,14 +14,15 @@ public class AnimalsAndLegs {
         // The numbers of legs: 16
         //
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter the number of chickens");
+
+        System.out.println("Please enter the number of chickens: ");
         int chickens = scanner.nextInt();
 
-        System.out.println("Please enter the number of pigs");
+        System.out.println("Please enter the number of pigs: ");
         int pigs = scanner.nextInt();
 
         int legs = ((chickens * 2) + (pigs * 4));
-        System.out.println("The numbers of legs:" + legs);
+        System.out.println("The number of legs: " + legs);
     }
 }
 

@@ -28,13 +28,13 @@ public class PartyIndicator {
         // Please enter the number of boys: 25
         // Quite a cool party!
         if (girls == 0) {
-            System.out.println("Sausage party");
-        } else if ((girls + boys) < 20){
-            System.out.println("Average party...");
+            System.out.println(" Sausage party");
+        } else if ((girls + boys) < 20) {
+            System.out.println(" Average party...");
         } else if ((girls + boys) >= 20 && girls == boys) {
-            System.out.println("The party is excellent!");
+            System.out.println(" The party is excellent!");
         } else {
-            System.out.println("Quite a cool party!");
+            System.out.println(" Quite a cool party!");
         }
     }
 }
