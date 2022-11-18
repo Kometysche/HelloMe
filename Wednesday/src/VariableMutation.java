@@ -7,7 +7,7 @@ public class VariableMutation {
 
         int b = 100;
         // decrease the value of b by 7
-        b -= - 7;
+        b -= 7;
         System.out.println(b);
 
         int c = 44;
