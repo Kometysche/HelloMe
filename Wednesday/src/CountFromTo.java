@@ -17,10 +17,10 @@ public class CountFromTo {
         // 4
         // 5
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Insert first number, please.");
+        System.out.println("Please enter the first number: ");
         int first = scanner.nextInt();
 
-        System.out.println("Insert second number, please.");
+        System.out.println("Please enter the second number: ");
         int second = scanner.nextInt();
 
 
