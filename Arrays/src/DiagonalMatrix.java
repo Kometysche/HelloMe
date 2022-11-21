@@ -28,8 +28,8 @@ public class DiagonalMatrix {
         System.out.println("Please enter the array (matrix) size: ");
         int n = scanner.nextInt();
 
-        int matrix2[n][n];
 
+        return new int[0][];
     }
 
     public static void print(int[][] matrix) {
