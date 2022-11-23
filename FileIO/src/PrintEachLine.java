@@ -15,11 +15,11 @@ public class PrintEachLine {
     }
 
 
-    public static void printEachLine() {
+    public static void printEachLine(String[] args) {
             Path filePath = Paths.get("my-file.txt");
             try {
                 List<String> lines = Files.readAllLines(filePath);
-                System.out.println(lines.get(-1));
+                System.out.println(lines.get(0));
             } catch (IOException e) {
                 System.out.println("Unable to read file: my-file.txt");
             }
